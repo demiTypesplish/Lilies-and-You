@@ -954,11 +954,6 @@ a {
     color: #c36d94;
     font-weight: 600;
 }
-
-/* =========================
-   NAVIGATION BUTTONS
-========================= */
-
 .actions {
     display: flex;
     flex-wrap: wrap;
@@ -1033,19 +1028,11 @@ a {
     color: var(--pink-dark);
     font-size: 16px;
 }
-
-/* =========================
-   ALBUM CARD AREA
-========================= */
-
 .album-area {
     width: 100%;
     max-width: 370px;
     justify-self: center;
 }
-
-/* Small label above album */
-
 .album-label {
     display: inline-flex;
     align-items: center;
@@ -1071,9 +1058,6 @@ a {
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(217, 137, 173, 0.6);
 }
-
-/* Album card container */
-
 .album-card {
     padding: 17px;
 
@@ -1109,9 +1093,6 @@ a {
 .album-top {
     padding: 2px 3px 15px;
 }
-
-/* Album cover */
-
 .cover {
     width: 100%;
     aspect-ratio: 1 / 1.05;
@@ -1218,9 +1199,6 @@ a {
     bottom: -120px;
     left: -70px;
 }
-
-/* Album details */
-
 .card-info {
     display: flex;
     align-items: center;
