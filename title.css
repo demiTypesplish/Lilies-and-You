@@ -106,11 +106,6 @@ body {
 .small-label span {
     font-size: 13px;
 }
-
-
-
-
-
 .divider {
     display: flex;
     align-items: center;
@@ -303,8 +298,6 @@ body {
     border-top: none;
     border-bottom-right-radius: 20px;
 }
-
-/* ANIMATION */
 
 @keyframes float {
     0%, 100% {
