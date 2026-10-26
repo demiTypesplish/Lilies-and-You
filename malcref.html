@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lilies and You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.body.classList.add('page-loaded');
+      });
+
+      document.addEventListener('click', (event) => {
+        const link = event.target.closest('button[onclick*="location.href"]');
+        if (!link) return;
+        document.body.style.opacity = '0';
+        document.body.style.transform = 'translateY(12px)';
+        document.body.style.transition = 'all 0.4s ease';
+      });
+    </script>
+
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <main class="hero">
+        <section class="intro">
+          <h2>It is truly unexpected that our connection blossomed and before I realize it, I ended up having a crush on you.</h2>
+        </section>
+
+        <aside class="album-card" aria-label="Album profile card">
+          <div class="cover">
+            <img src="WalkToClass.jpg" alt="Walk To Class" class="cover-image" />
+          </div>
+
+          <div class="card-info">
+            <h2>Walk To Class</h2>
+            <p>Malcolm Todd</p>
+          </div>
+
+        </aside>
+
+        <div class="actions">
+          <button class="secondary" onclick="window.location.href='index.html'">Go Back</button>
+          <button class="primary" onclick="window.location.href='malcref1.html'">Continue</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lilies and You</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page-shell">
+
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+        <div class="ambient ambient-three"></div>
+
+        <div class="floating-box floating-box-one">♡</div>
+        <div class="floating-box floating-box-two">✿</div>
+        <div class="floating-box floating-box-three">୨୧</div>
+
+        <header class="top-bar">
+            <div class="logo-box">
+                <a href="LilyOfTheValley.html" class="logo-icon" aria-label="Go to Lily of the Valley">✿</a>
+                <span>Lilies and You</span>
+            </div>
+
+           
+        </header>
+        <main class="hero">
+
+            <section class="intro">
+
+                <div class="small-box eyebrow-box">
+                    <span class="eyebrow">I get it from you</span>
+                </div>
+
+                <div class="title-box">
+                    <span class="title-decoration">♡</span>
+                    <h1>HELLO<br><span>DEBBIE</span></h1>
+                    <a href="LilyOfTheValley.html" class="title-flower-button" aria-label="Go to Lily of the Valley">✿</a>
+                </div>
+
+                <div class="message-box">
+                    <span class="message-label">NOTE</span>
+
+                    <p>
+                        SO HERE IS THE PLAN I WAS TALKING ABOUTTT !!<br>
+                        I made this website to express my feelings for you.
+                    </p>
+
+                    <p class="instruction">
+                        Click the heart below if you want to get started!!!!
+                    </p>
+                </div>
+
+                <div class="actions">
+
+                    <button class="primary"
+                        onclick="navigateTo('malcref.html')">
+                        <span>♡</span>
+                    </button>
+                </div>
+                <div class="footer-note">
+                    <span>For Me For Me</span>
+                    <span class="footer-heart">✿</span>
+                    <span>To You To You</span>
+                </div>
+
+            </section>
+            <aside class="album-area" aria-label="Malcolm Todd profile card">
+                <div class="album-card">
+                    <div class="cover">
+                        <img src="Debbie.jpg" alt="Debbie" class="cover-image" />
+                    </div>
+
+                    <div class="card-info">
+                        <div class="song-info">
+                           
+                            <h2>Ladygirl</h2>
+                            <p>Malcolm Todd</p>
+                        </div>
+
+                        <div class="music-icon">♫</div>
+                    </div>
+
+                    <div class="album-progress">
+                        <span></span>
+                    </div>
+
+                    <div class="album-bottom">
+                        <span>♡ ୨୧ ♡</span>
+                    </div>
+
+                </div>
+
+                <div class="quote-box">
+                    <span class="quote-mark">“</span>
+                    <p>
+                        “love withheld is love wasted— kasi ang sayang naman kung hindi ako magmamahal nang buo kasi takot ako masaktan“
+<br>
+                        “live so you love— mabuhay ka para magmahal,
+                        love so you live— at magmahal ka para mabuhay“.
+                    </p>
+                   
+                </div>
+
+            </aside>
+
+        </main>
+
+        <!-- Bottom decorative boxes -->
+        <footer class="bottom-bar">
+            <div class="bottom-item">
+                <p>La-la-la</p>
+            </div>
+
+            <div class="bottom-divider"></div>
+
+            <div class="bottom-item">
+                <p>La-la-la</p>
+            </div>
+
+            <div class="bottom-divider"></div>
+
+            <div class="bottom-item">
+                <p>La-la-la</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.body.classList.add("page-loaded");
+        });
+
+        function navigateTo(page) {
+            document.body.classList.add("page-leaving");
+
+            setTimeout(function () {
+                window.location.href = page;
+            }, 350);
+        }
+    </script>
+
+</body>
+</html>
